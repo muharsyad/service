@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services | Muhammad Arsyad</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.min.css" integrity="sha512-MqL4+Io386IOPMKKyplKII0pVW5e+kb+PI/I3N87G3fHIfrgNNsRpzIXEi+0MQC0sR9xZNqZqCYVcC61fL5+Vg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="assets/profile.jpg" type="image/x-icon">
+</head>
+<body>
+    <!--Navbar-->
+    <div class="navbar" id="navbar-responsive">
+        <a href="/muharsyad.github.io/" class="name">Muhammad Arsyad</a>
+        <a href="/muharsyad.github.io/#contact" class="right">Contact</a>
+        <a href="/services/" class="right">Services</a>
+        <a href="/blog/" class="right">Blog</a>
+        <a href="/course/" class="right">Learning Hub</a>
+        <a href="/portfolio/" class="right">Portfolio</a>
+        <a href="/muharsyad.github.io/#about-me" class="right">About Me</a>
+        <a href="javascript:void(0);" class="icon" onclick="navbar()">
+            <i class="ri-menu-line"></i>
+        </a>
+    </div>
+
+    <div class="service-section">
+        <h2><i class="ri-settings-4-line"></i> Services & Expertise</h2>
+        <p style="margin-bottom: 30px; text-align: center;">Layanan yang saya tawarkan dalam bidang AI, Machine Learning, dan Data Science.</p>
+
+        <!-- Filter Buttons -->
+        <div class="filter-buttons">
+            <button onclick="filterProjects('all')">Semua</button>
+            <button onclick="filterProjects('ai')">AI / Machine Learning</button>
+            <button onclick="filterProjects('nlp')">Natural Language Processing</button>
+            <button onclick="filterProjects('data')">Data Analysis</button>
+        </div>
+
+        <div class="container">
+
+            <div class="card" data-category="ai">
+                <span class="badge ml">🤖 Machine Learning</span>
+                <i class="ri-brain-fill"></i>
+                <h3>Pengembangan Model ML</h3>
+                <p>Membangun model Machine Learning yang optimal untuk prediksi dan analisis data.</p>
+                <div class="links">
+                    <a href="#"><i class="ri-mail-fill"></i> Hubungi Saya</a>
+                </div>
+            </div>
+    
+            <div class="card" data-category="ai">
+                <span class="badge data">📊 Data Science</span>
+                <i class="ri-line-chart-fill"></i>
+                <h3>Analisis Data & Visualisasi</h3>
+                <p>Menganalisis data dan menyajikan insight dengan visualisasi interaktif.</p>
+                <div class="links">
+                    <a href="#"><i class="ri-mail-fill"></i> Hubungi Saya</a>
+                </div>
+            </div>
+    
+            <div class="card" data-category="nlp">
+                <span class="badge consult">📞 Konsultasi</span>
+                <i class="ri-user-2-fill"></i>
+                <h3>Konsultasi AI & ML</h3>
+                <p>Memberikan solusi berbasis AI & ML sesuai kebutuhan bisnis atau proyek Anda.</p>
+                <div class="links">
+                    <a href="#"><i class="ri-mail-fill"></i> Hubungi Saya</a>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Muhammad Arsyad. All rights reserved.</p>
+            <p>"Solving Problems with AI, Data, and Mathematics"</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/muhammad-arsyad-59865120a/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://github.com/muharsyad" target="_blank"><i class="ri-github-fill"></i></a>
+                <a href="https://www.instagram.com/muha.rsyd/" target="_blank"><i class="ri-instagram-fill"></i></a>
+                <a href="mailto:muharsyad2201@gmail.com"><i class="ri-mail-fill"></i></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
